@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1152px;
+    width: 100%;
+    /* padding: 0 94px; */
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* header start */
+.header__n {
+    padding: 36px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__n-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header__n-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header__nav-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__page {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header__page-info__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    width: 354px;
+    height: 146px;
+    position: relative;
+    margin: 131px 51px 20px 33px;
+}
+
+.header__page-info__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+    margin: 0 64px 0 33px;
+}
+
+.h1__pic {
+    position: absolute;
+}
+
+.header__page-img {
+    width: 476px;
+    height: 323px;
+    margin: 70px 0px 0 51px;
+}
+
+/* header end  */
+
+
+
+/* main start  */
+.section {
+    margin-top: 39px;
+    margin-bottom: 43px;
+}
+
+.section__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__info-text {
+    padding: 104px 77px 43px 52px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.section__info-text__1st {
+    height: 51px;
+    width: 403.08636474609375px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+}
+
+.section__info-text__2nd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #718096;
+}
+
+.section__anch {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+}
+
+/* section2  */
+.section2__card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.card__image {
+    width: 297px;
+    height: 179px;
+}
+
+.card__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+    width: 258px;
+    height: 85px;
+}
+
+.card__4th {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2__ach {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+}
+
+/* section 2 end  */
+
+
+
+
+/* section3 start  */
+.section3 {
+    margin-top: 43px;
+    background: #F7FAFC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.section3__info-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.section3__info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+    width: 311px;
+    height: 114px;
+}
+
+.section3__info-text__2nd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3__span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.section3__anch {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* section3 end  */
+
+
+button {
+    padding: 9px 11px;
+    background: #6B46C1;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.btn-img {}
+
+.main__btn {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
+
+/* main end  */
+
+
+
+
+/* footer start  */
+.line {
+    border: 1px solid #E8E8E8;
+}
+.navfr__title::after{
+    content: "2020 copyright all rights reserved";
+    font-weight: 400;
+}
+.navfr {
+    display: flex;
+    justify-content: space-between;
+}
+.navfr__list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+/* footer end  */
